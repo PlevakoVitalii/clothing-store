@@ -1,13 +1,28 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import-normalize;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Sen&family=Work+Sans:wght@400;500;600&display=swap");
+
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  /* Typography */
+  --family-M: "Montserrat", sans-serif;
+  --fs-M-sm: 11px;
+  --fs-M-md: 18px;
+  --fw-M-bold: 800;
+  --family-S: "Sen", sans-serif;
+  --fs-S-sm: 13, 5px;
+  --fs-S-md: 14px;
+  --fw-S-regular: 400;
+  --family-W: "Work Sans", sans-serif;
+  --fs-W-11: 11px;
+  --fs-W-12: 12px;
+  --fs-W-14: 14px;
+  --fs-W-16: 16px;
+  --fs-W-18: 18px;
+  --fs-W-22: 22px;
+  --fw-W-regular: 400;
+  --fw-W-medium: 500;
+  --fw-W-bold: 700;
 }
